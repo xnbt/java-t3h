@@ -10,6 +10,8 @@ public class JdbcFirstExample {
     public static void main(String[] args) throws SQLException {
         Connection connection = null;
         Statement statement = null;
+
+        // khai niem native sql
         try {
             File file = new File("./sampledb");
             Class.forName("org.apache.derby.jdbc.EmbeddedDriver");

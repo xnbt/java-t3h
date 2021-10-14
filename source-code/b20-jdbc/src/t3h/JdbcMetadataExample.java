@@ -8,6 +8,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * khai niem annotation
+ * khai niem metadata
+ */
 public class JdbcMetadataExample {
     public static void main(String[] args) throws SQLException {
         Connection connection = null;

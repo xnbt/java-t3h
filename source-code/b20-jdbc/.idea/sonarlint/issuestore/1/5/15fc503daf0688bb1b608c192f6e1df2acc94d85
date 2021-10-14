@@ -1,0 +1,17 @@
+
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(öšô×ıÿÿÿÿ8«ªÖÏÇ/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÕªÔûÿÿÿÿ8ßÏÇ/
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ŞÛ‡ë8¡§ÉÏÇ/
+W
+java:S1128":Remove this unused import 'com.sun.rowset.JdbcRowSetImpl'.(‘µ²Í8ıµğÏÇ/
+Z
+java:S1128"8Remove this unused import 'javax.sql.rowset.JdbcRowSet'.(Ñø¾şÿÿÿÿ8ıµğÏÇ/
+U	java:S106N"9Replace this use of System.out or System.err by a logger.(½ÌÚö8¬«‹ĞÇ/
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(¹Ä›³ıÿÿÿÿ8»‚ƒĞÇ/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é×ä#
+H
+java:S1481P"+Remove this unused "names1" local variable.(àáçş8°ĞÇ/
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(è¦…Áüÿÿÿÿ8ÄÀ†ĞÇ/
+U	java:S106Q"9Replace this use of System.out or System.err by a logger.(°×ëÃ8åïĞÇ/

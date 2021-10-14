@@ -6,6 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+
 public class App {
     public static void main(String[] args) throws SQLException {
         Connection connection = null;
@@ -20,6 +21,7 @@ public class App {
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         } finally {
+            // khái niệm try catch, finnaly
             if (connection != null) connection.close();
             if (statement != null) statement.close();
         }

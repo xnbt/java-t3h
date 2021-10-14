@@ -7,6 +7,8 @@ import java.sql.SQLException;
 
 public class DataFilter implements Predicate {
 
+    // predicate la gi
+    // khai niem lambda
     @Override
     public boolean evaluate(RowSet rs) {
         CachedRowSet crs = (CachedRowSet) rs;

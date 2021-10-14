@@ -1,13 +1,9 @@
 package t3h;
 
 import java.io.File;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
-public class TransactionExample {
+public class TransactionExample2 {
     public static void main(String[] args) throws SQLException {
         Connection connection = null;
         Statement statement = null;

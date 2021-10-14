@@ -1,0 +1,9 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é×ä#
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ýÿÿÿÿ8­€¢ÑÇ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿìû‚øÿÿÿÿ8¡„«ÑÇ/
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(‘µ²Í
+W
+java:S1128":Remove this unused import 'com.sun.rowset.JdbcRowSetImpl'.(‘µ²Í8­€¢ÑÇ/

@@ -1,0 +1,14 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ø›â8à€ìĞÇ/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é×ä#
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‹¡úñÿÿÿÿÿ8çïîĞÇ/
+W
+java:S1128":Remove this unused import 'com.sun.rowset.JdbcRowSetImpl'.(‘µ²Í8¥ˆæĞÇ/
+a
+java:S2583 "DChange this condition so that it does not always evaluate to "false"( ©ê8¥ˆæĞÇ/
+L
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ÎÚçĞÇ/
+R
+java:S1191"5Use classes from the Java API instead of Sun classes.(øÅ•‹8ÎÚçĞÇ/
+r
+java:S2095"PUse try-with-resources or close this "FilteredRowSetImpl" in a "finally" clause.(ÀÔÓşÿÿÿÿ8ÎÚçĞÇ/

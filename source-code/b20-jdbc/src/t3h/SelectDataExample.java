@@ -16,13 +16,11 @@ public class SelectDataExample {
             Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
             connection = DriverManager.getConnection("jdbc:derby:" + file.getAbsolutePath() + ";create=true");
             statement = connection.createStatement();
-            ResultSet rs = statement.executeQuery("select * from student");
-            while (rs.next()) {
-                int id = rs.getInt("id");
-                String name = rs.getString("name");
-                int age = rs.getInt(3);
-                System.out.println(id + "\t" + name + "\t" + age);
+            ResultSet rs = statement.executeQuery("select count(*) from student");
+            if (rs.next()) {
+                System.out.println("total records before commit = " + rs.getInt(1));
             }
+            System.out.println("....");
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         } finally {

@@ -1,0 +1,14 @@
+
+P
+java:S1128"3Remove this unused import 'java.sql.DriverManager'.(“£°8Ïº­ÏÇ/
+a
+java:S2583"DChange this condition so that it does not always evaluate to "false"(åüÚõ8Ïº­ÏÇ/
+E
+java:S1128
+"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(‘µ²Í
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ïµÁ¡8¶…´ÏÇ/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é×ä#
